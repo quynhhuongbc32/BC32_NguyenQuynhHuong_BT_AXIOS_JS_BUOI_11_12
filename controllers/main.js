@@ -277,7 +277,6 @@ function validateForm(type) {
     return true;
 }
 
-
 // ====================== DOM ============================
 dom('#btnThemNguoiDung').addEventListener("click", () => {
     dom("#TaiKhoan").disabled = false;
